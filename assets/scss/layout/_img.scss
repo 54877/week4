@@ -1,0 +1,65 @@
+.logo-img {
+    width: 80px;
+}
+
+.footer-fb-ig-line {
+    max-width: 48px;
+}
+
+.img-w-100{
+    width: 100px;
+}
+.img-nav{
+    max-width: 30px;
+    height: 30px;
+}
+.img-lable{
+    max-width: 58px;
+}
+.img-arrow{
+    max-width: 24px;
+}
+.img-fb-ig-logo {
+    max-width: 24px;
+}
+.footer-call {
+    max-width: 36px;
+}
+
+.footer-mail {
+    max-width: 40px;
+}
+.img-page {
+    display: flex;
+    align-items: stretch;
+    object-fit: fill
+}
+.store-img{
+    max-width: 24px;
+    height: 24px;
+
+}
+@media (max-width: 992px) {
+
+    .footer-fb-ig-line {
+        max-width: 40px;
+    }
+    .img-lable{
+        max-width: 24px;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .footer-fb-ig-line {
+        max-width: 24px;
+    }
+
+    .footer-call {
+        max-width: 18px;
+    }
+
+    .footer-mail {
+        max-width: 20px;
+    }
+}

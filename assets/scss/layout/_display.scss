@@ -1,0 +1,42 @@
+.df {
+    display: flex;
+}
+.di{
+    display: inline;
+}
+.db{
+    display: block;
+}
+.dn{
+    display: none;
+}
+@media (max-width:992px) {
+    .df-992{
+        display: flex;
+    }
+    .jcsb-992{
+        justify-content: space-between;
+    }
+    .db-992{
+        display: block;
+    }
+    .dn-992{
+        display: none;
+    }
+}
+
+@media (max-width: 576px) {
+
+    .db-576 {
+        display: block;
+    }
+        .df-576 {
+        display: flex;
+    }
+    .dn-576{
+        display: none;
+    }
+    .fdr-r-576{
+        flex-direction: row-reverse;
+    }
+}

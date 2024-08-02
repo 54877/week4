@@ -1,0 +1,16 @@
+    .hover-bottom-red {
+        position: relative;
+        &:hover::after {
+            content: "";
+            height: 8px;
+            width: 100%;
+            background-color: $red;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+        }
+    }
+    .page-hover:hover{
+        background-color: black;
+        color: $white;
+    }

@@ -1,0 +1,18 @@
+.bgi{
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bgi-optical,.bgi-sunglasses {
+        height: 296px;
+        background-size: 50% 100%, 50% 100%;
+        background-repeat: no-repeat, no-repeat;
+        background-position: left top, right top;
+}
+
+@media (max-width:576px) {
+    .bgi-optical {
+            height: 136px;
+        }
+}

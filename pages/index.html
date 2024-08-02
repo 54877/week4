@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>眼鏡官網</title>
+  </head>
+  <body>
+    <%- include('./layout/header'); -%>
+
+      <style>
+          .bgi-index-1{
+            background-image: url(../assets/images/home-header.png);
+          }
+          .bgi-index-2{
+            background-image: url(../assets/images/index-bg.png);
+          }
+          @media (max-width: 992px) {
+              .bgi-index-1{
+                background-image: url(../assets/images/home-header-sm.png);
+              }
+              .bgi-index-2{
+                background-image: url(../assets/images/index-bg-md.png);
+              }
+          }  
+
+          @media (max-width: 576px) {
+              .bgi-index-2{
+                background-image: url(../assets/images/index-bg-sm.png);
+              }
+          }  
+      </style>
+
+      <div class="bgi-index-1 bgi">
+        <div class="container">
+          <div class="tar df fdc">
+            <p class="fs-36 mt296 mt144-576 black-red fs-16-576">Promise-Desert 2020 早春系列</p>
+            <h1 class="fs-64 black-red bold mb8-576 fs-24-576">看得清，才能看得遠</h1>
+            <div class="mb296 mb144-576">
+              <a class="di bgc-red fs-20 p6-12 white" href="#">立即購買</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="bgc-pink">
+        <div class="container">
+          <div class="df jcc "> 
+            <h2 class="mt80  black-red fs-48 bold fs-24-576 mt40-576 mb32-576">用專業的心，做專業的事</h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="bgc-pink">
+        <div class="container">
+          <div class="df fw-w m0--12 pb80 pt24 jcc pb40-576">
+
+            <div class="box25-50-100 df fdc aic p0-12">
+              <img class="mb24 img-w-100 mb16-992" src="../assets/images/home-section2-1.png" alt="價格">
+              <h2 class="fs-24 black-red bold mb8">單一價格</h2>
+              <p class="mb24-576">無論任何度數皆不需追加費用即可擁有適合自己的薄型球面鏡片。</p>
+            </div>
+
+            <div class="box25-50-100 df fdc aic p0-12">
+              <img class="mb16 img-w-100 mb16-992" src="../assets/images/home-section2-2.png" alt="價格">
+              <h2 class="fs-24 black-red bold mb8 tac">20 分鐘即可取件</h2>
+              <p class="mb24-992">為了您的寶貴時間著想，以豐富專業知識與技術將結帳到交件的時間縮減至最快 20 分鐘即可完成。</p>
+            </div>
+
+            <div class="box25-50-100 df fdc aic p0-12">
+              <img class="mb24 img-w-100 mb16-992" src="../assets/images/home-section2-3.png" alt="價格">
+              <h2 class="fs-24 black-red bold mb8 tac">安心售後服務</h2>
+              <p class="mb24-576">我們提供長達 120 天的保固售後服務，不限會員資格皆享有免費深層保養及專業維修服務。</p>
+            </div>
+
+            <div class="box25-50-100 df fdc aic p0-12">
+              <img class="mb24 img-w-100 mb16-992" src="../assets/images/home-sectioin2-4.png" alt="價格">
+              <h2 class="fs-24 black-red bold mb8 tac">關於鏡片</h2>
+              <p>使用世界知名頂級品牌，抗UV、防汙鍍膜薄型非球面鏡片。</p>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="df jcc ">
+          <h2 class="mt80 black-red fs-48 bold fs-24-576 mt40-576">經典系列鏡框</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="df pt48 pb80 m0--12 fdc-992 aic-992 pt24-576 pb40-576">
+          <div class="box33-50-100 p0-12 mb24-992 ">
+              <img class="mb8" src="../assets/images/home-section3-1.png" alt="OPTICAL">
+              <a class=" db fs-48  tac heavy italic black-red" href="../pages/OPTICAL.html">OPTICAL</a>
+          </div>
+
+          <div class="box33-50-100 p0-12 mb24-992">
+              <img class="mb8" src="../assets/images/home-section3-2.png" alt="OPTICAL">
+              <a class=" db fs-48  tac heavy italic black-red" href="../pages/sunglasses.html">SUNGLASSES</a>
+          </div>
+
+          <div class="box33-50-100 p0-12">
+              <img class="mb8" src="../assets/images/home-section3-3.png" alt="FUNCTIONAL">
+              <h3 class="fs-48 black-red tac heavy italic ">FUNCTIONAL</h3>
+          </div>
+          
+        </div>
+      </div>
+
+      <div class="bgi-index-2 bgi">
+            <div class="container">
+              <div class="df jcc ">
+                <h2 class="mt80 white fs-48 bold fs-24-576 mt40-576">聯名設計鏡框</h2>
+              </div>
+            </div>
+
+            <div class="container pt48 pb80 pt24-576 pb40-576 ">
+              <div class="df fw-w-992">
+
+                <div class="box50-100 mb24-992">
+                  <picture>
+                    <source srcset="../assets/images/home-section4-1-sm.png" media="(max-width: 576px)">
+                    <img src="../assets/images/home-section4-1.png" alt="DOUBLE A+">
+                  </picture>
+                  <p class="black-red italic heavy bgc-white tac fs-48 p8-0">DOUBLE A+</p>
+                </div>
+
+                <div class="box50-100">
+                  <picture>
+                    <source srcset="../assets/images/home-section4-2-sm.png" media="(max-width: 576px)">
+                    <img src="../assets/images/home-section4-2.png" alt="YOUTH">
+                  </picture>
+                  <p class="black-red italic heavy bgc-white tac fs-48 p8-0">YOUTH</p>
+                </div>
+
+              </div>
+            </div>
+      </div>
+
+      <div class="container">
+        <div class="df jcc ">
+          <h2 class="mt80 black-red fs-48 bold fs-24-576 mt40-576">顧客推薦</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="df m0--12 mb80 pt48 fw-w-992 pt24-576 mb40-576">
+
+          <div class="p0-12 box25-50-100 mb24 mb16-576">
+            <img src="../assets/images/home-section5-1.png" alt="pic">
+            <div class="df fdc p0-16 index-card boder-1-solid-grey border-r-4px box-s-0-2-6">
+                <p class="mt16 mb8">Jessy</p>
+                <p class="">眼鏡品質優良，下次還會想來這邊購買！</p>
+              <time class="mb16 mta fs-14 grey">2021/06/20</time>
+            </div>
+          </div>
+
+          <div class="p0-12 box25-50-100 mb24 mb16-576">
+            <img src="../assets/images/home-section5-2.png" alt="pic">
+            <div class="df fdc p0-16 index-card boder-1-solid-grey border-r-4px box-s-0-2-6">
+                <p class="mt16 mb8">凱倫</p>
+                <p class="">做工細緻、鏡架很輕盈，待久也不會覺得有負擔，推薦給大家！</p>
+              <time class="mb16 mta fs-14 grey">2021/04/18</time>
+            </div>
+          </div>
+
+
+          <div class="p0-12 box25-50-100 mb16-576">
+            <img src="../assets/images/home-section5-3.png" alt="pic">
+            <div class="df fdc p0-16 index-card boder-1-solid-grey border-r-4px box-s-0-2-6">
+                <p class="mt16 mb8">悠悠</p>
+                <p class="">謝謝客服人員的詳細回答，成功買到了喜歡的眼鏡，下次會再回購！</p>
+              <time class="mb16 mta fs-14 grey">2020/12/25</time>
+            </div>
+          </div>
+          
+
+          <div class="p0-12 box25-50-100">
+            <img src="../assets/images/home-section5-4.png" alt="pic">
+            <div class="df fdc p0-16 index-card boder-1-solid-grey border-r-4px box-s-0-2-6">
+                <p class="mt16 mb8">Kyuan</p>
+                <p class="">服務很好，品質沒有任何問題，非常喜歡。</p>
+              <time class="mb16 mta fs-14 grey">2020/10/31</time>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="bgc-pink">
+        <div class="container df aic fdc pb80">
+          <div class="box50-100 p0-6 p0-60-992 p0-576">
+            <div class="mt80 mb24">
+              <h2 class="black-red fs-48 mb48 bold fs-24-576 tac mb24-992">聯絡我們</h2>
+              <p class="fs-20 fs-16-992">我們相當重視您的意見，若您有任何疑問，可先參考「常見問題」，若仍有任何問題，請填妥以下資料，我們會在近期與您聯繫。</p>
+            </div>
+              <form class="pb8" name="name">姓名</form>
+              <input class="p6-0 mb16 box-w100" id="name" type="text" placeholder="陳小明">
+              
+              <form class="pb8" name="number">聯絡電話</form>
+              <input class="p6-0 mb16 box-w100" id="number" type="number" placeholder="0912-345-678">
+
+              <form class="pb8" name="email">電子郵件</form>
+              <input class="p6-0 mb16 box-w100" id="email" type="email" placeholder="example@email.com">
+
+              <form class="pb8" name="text">意見反映</form>
+              <textarea class="p6-0 mb16 box-w100" name="text" id="text" rows="8"></textarea>
+
+              <input class="mb48 mb24-576" id="checkbox" type="checkbox">我同意隱私權政策，並同意依隱私權政策中所述的方式處理自己的資料。
+          </div>
+
+            <button class="box33-50-100 box-w100 p16-6  bgc-red white">確認送出</button>
+
+
+          
+        </div>
+      </div>
+   <%- include('./layout/footer'); -%>
+
+    <script type="module" src="../main.js"></script>
+  </body>
+</html>
